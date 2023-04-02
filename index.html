@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morminte Cruci</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="header">
+      <img
+        src="img/lgo.png"
+        alt="consoftware"
+        onclick="window.location.href='index.html';"
+      />
+
+      <div class="navbar">
+        <ul>
+          <i id="menu-close" class="fa-solid fa-xmark"></i>
+          <li><a class="active" href="index.html">Acasa</a></li>
+          <li>
+            <a href="#">Catalog</a>
+            <ul class="sub-menu">
+              <li class="menu-item">
+                <div onclick="window.location.href='monumente.html';">
+                  <a href="#">Monumente Granit-Mozaic</a>
+                </div>
+                <div onclick="window.location.href='morminte.html';">
+                  <a href="#">Morminte Granit-Mozaic</a>
+                </div>
+                <div onclick="window.location.href='finisaje.html';">
+                  <a href="#">Finisaje</a>
+                </div>
+                <div onclick="window.location.href='culori.html';">
+                  <a href="#">Culori</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li><a href="lucrari.html">Lucrari Finalizate</a></li>
+          <li><a href="despre.html">Despre Noi</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div id="mobile">
+        <i id="menu-open" class="fas fa-outdent"></i>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <h2>MONUMENTE FUNERARE</h2>
+      <div class="btn" onclick="window.location.href='contact.html';">
+        <a class="white" href="#">LOCATIA NOASTRA</a>
+      </div>
+    </section>
+
+    <!-- catalog -->
+    <section id="catalog">
+      <h2>CATALOG PRODUSE</h2>
+    </section>
+    <section id="feature" class="section-p1">
+      <div class="fe-box" onclick="window.location.href='monumente.html';">
+        <img class="f-size1" src="img/monumente/m25.jpg" alt="" />
+        <div class="fe-text1">
+          <h6>MONUMENTE GRANIT</h6>
+        </div>
+      </div>
+      <div class="fe-box" onclick="window.location.href='morminte.html';">
+        <img class="f-size2" src="img/morminte/m1.png" alt="" />
+        <div class="fe-text2">
+          <h6>MORMINTE GRANIT</h6>
+        </div>
+      </div>
+      <div class="fe-box" onclick="window.location.href='finisaje.html';">
+        <img src="img/detaliif finisaje/df2.png" alt="" />
+        <div class="fe-text3">
+          <h6>DETALII FINISAJE</h6>
+        </div>
+      </div>
+      <div class="fe-box" onclick="window.location.href='culori.html';">
+        <img src="img/culori/g-newb.jpg" alt="" />
+        <div class="fe-text4">
+          <h6>CULORI</h6>
+        </div>
+      </div>
+    </section>
+
+    <!-- servicii -->
+    <section id="srv">
+      <h2>De ce noi?</h2>
+      <div class="srv-box">
+        <div class="blog-img">
+          <img src="img/lucrari finalizate/lf20.jpeg" alt="" />
+        </div>
+        <div class="srv-details">
+          <h4>Finisaje la cea mai inalta calitate</h4>
+          <p>
+            Ne asigurăm că serviciile noastre sunt de cea mai înaltă calitate,
+            de la morminte si monumente funerare până la flori și decoruri.
+          </p>
+        </div>
+      </div>
+
+      <div class="srv-box">
+        <div class="srv-details">
+          <h4>Servicii personalizate</h4>
+          <p>
+            Suntem flexibili și putem oferi o gamă largă de servicii pentru a se
+            potrivi cu nevoile și preferințele clienților noștri, indiferent de
+            buget sau preferințe culturale și religioase.
+          </p>
+        </div>
+        <div class="blog-img">
+          <img src="img/lucrari finalizate/lf3.jpeg" alt="" />
+        </div>
+      </div>
+
+      <div class="srv-box">
+        <div class="blog-img">
+          <img src="img/lucrari finalizate/lf7.jpeg" alt="" />
+        </div>
+        <div class="srv-details">
+          <h4>Respect și empatie</h4>
+          <p>
+            O echipă de profesioniști care să ofere servicii cu compasiune și să
+            trateze fiecare familie și persoană decedată cu respect.
+          </p>
+        </div>
+      </div>
+
+      <div class="srv-box">
+        <div class="srv-details">
+          <h4>Prețuri competitive</h4>
+          <p>
+            Prețuri echitabile și transparente, care să ofere valoare pentru
+            fiecare serviciu oferit cu
+            <strong>posibilitatea de a plati si in rate</strong> .
+          </p>
+        </div>
+        <div class="blog-img">
+          <img src="img/lucrari finalizate/lf14.jpeg" alt="" />
+        </div>
+      </div>
+
+      <div class="popup-image">
+        <span>&times;</span>
+        <img src="img/lucrari finalizate/lf15.jpeg" alt="" />
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="foot">
+      <div class="col-logo">
+        <img class="logo" src="img/lgo.png" alt="" />
+        <p>
+          Oferim servicii de îngrijire a mormintelor, cu o gamă largă de
+          produse, inclusiv pietre funerare, borduri morminte, cripte, cavouri,
+          capace morminte, vaze din mozaic, marmură și granit. Mormintele
+          noastre sunt de înaltă calitate și pot fi personalizate pentru a
+          reflecta personalitatea și preferințele persoanei decedate și ale
+          familiei.
+        </p>
+      </div>
+
+      <div class="col">
+        <h4>Contact</h4>
+        <a
+          href="https://www.google.com/maps/place/Servicii+Funerare+BGG+S.R.L/@46.546207,23.7450204,15z/data=!4m2!3m1!1s0x0:0xe26d6d41a72e6dc3?sa=X&hl=en-GB&ved=2ahUKEwinnJORtuX9AhULi_0HHfZQAioQ_BJ6BAhVEAY"
+          ><i class="fas fa-map-marker-alt"></i>str. Arieşului</a
+        >
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+          ><i class="fas fa-envelope"></i>bggpractic@gmail.com</a
+        >
+        <a href="tel:+40 (759) 085 702"
+          ><i class="fas fa-phone"></i>+40 (759) 085 702</a
+        >
+        <a href="https://www.facebook.com/profile.php?id=100089542551060"
+          ><i class="fab fa-facebook-f"></i>Facebook</a
+        >
+      </div>
+
+      <div class="col">
+        <h4>Scurtaturi</h4>
+        <a href="lucrari.html">Lucrari finalizate</a>
+        <a href="culori.html">Culori</a>
+        <a href="despre.html">Cine suntem noi?</a>
+      </div>
+
+      <div class="col">
+        <h4>Informatii Generale</h4>
+        <a href="t&c.html">Termeni si conditii</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright © 2023 CON Software. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- tel -->
+    <section id="tel">
+      <a href="tel:+40 (759) 085 702" class="contact-btn"
+        ><i class="fa-solid fa-phone"></i
+      ></a>
+    </section>
+
+    <!-- JQUERY -->
+    <script>
+      $("#menu-open").click(function () {
+        $("nav .navbar ul").addClass("active");
+      });
+      $("#menu-close").click(function () {
+        $("nav .navbar ul").removeClass("active");
+      });
+    </script>
+    <script>
+      document.querySelectorAll(".srv-box img").forEach((image) => {
+        image.onclick = () => {
+          document.querySelector(".popup-image").style.display = "block";
+          document.querySelector(".popup-image img").src =
+            image.getAttribute("src");
+        };
+      });
+
+      document.querySelector(".popup-image span").onclick = () => {
+        document.querySelector(".popup-image").style.display = "none";
+      };
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
