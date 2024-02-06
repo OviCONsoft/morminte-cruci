@@ -254,6 +254,62 @@ nav .navbar li ul li a:hover {
   transition: all 0.3s ease-in-out;
 }
 
+
+/* Stil pentru sectiunea anchor-tag */
+.anchor-tag {
+  padding: 60px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Stil pentru titlurile h2 din interiorul secțiunii */
+.anchor-tag h2 {
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+/* Stil pentru paragrafele din interiorul secțiunii */
+.anchor-tag p {
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Stil pentru link-uri din interiorul secțiunii */
+.anchor-tag a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Adaugă o tranziție de culoare pentru link-uri */
+}
+
+/* Stil pentru link-urile hover */
+.anchor-tag a:hover {
+  color: #0056b3;
+}
+
+/* Stil pentru ultimul paragraf */
+.anchor-tag p:last-child {
+  font-style: italic;
+  color: #888;
+}
+
+/* Stil pentru toate link-urile (anchor tags) din interiorul secțiunii #srv */
+#srv a {
+  color: #525252; /* Culoarea de bază a link-urilor */
+  text-decoration: underline;
+  font-weight: bold;
+}
+/* Stil pentru link-urile la hover (când utilizatorul plasează cursorul pe link) */
+#srv a:hover {
+  color: #e74c3c; /* Culoare diferită pentru hover */
+}
+
 /* CATALOG PRODUSE */
 #feature {
   display: flex;
