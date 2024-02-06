@@ -254,7 +254,6 @@ nav .navbar li ul li a:hover {
   transition: all 0.3s ease-in-out;
 }
 
-
 /* Stil pentru sectiunea anchor-tag */
 .anchor-tag {
   padding: 60px;
@@ -379,7 +378,7 @@ nav .navbar li ul li a:hover {
 /* SERVICII */
 #srv {
   padding: 90px 20px 0 60px;
-  background-color: #e6e4e4;
+  background-color: #ffffff;
 }
 
 #srv h2 {
