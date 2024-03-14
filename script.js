@@ -43,3 +43,15 @@ document.addEventListener("contextmenu", (e) => {
 document.addEventListener("dragstart", (e) => {
   e.preventDefault();
 });
+
+// Ascunde extensia de fișier din URL la încărcarea paginii
+function hideFileExtension() {
+    var currentUrl = window.location.href;
+    var updatedUrl = currentUrl.replace('.html', '');
+    window.history.replaceState(null, null, updatedUrl);
+}
+
+// Ascultă evenimentul de încărcare a paginii și apelează funcția pentru a ascunde extensia de fișier
+window.addEventListener('load', function() {
+    hideFileExtension();
+});
